@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("images/netflix\ back\ img.jpg");
+    background-size: (1000px,100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 99vh;
+    position: relative;
+}
+.main .box{
+    height: 99vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding-top: 6px;
+    max-width: 80vw;
+    height: 70px;
+    margin: auto;
+    justify-content: space-between;
+}
+nav .imo{
+    color: red;
+    width: 9.5625rem;
+    position: relative;
+    z-index: 1;
+}
+nav button{
+    position: relative;
+    z-index: 1;
+}
+.text{
+    /* font-family: 'Martel Sans', Sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.text> :nth-child(1){
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 70px;
+    width: 600px;
+    text-align: center;
+}
+.text> :nth-child(2){
+    font-weight: 500;
+    font-size: 20px;
+    line-height: normal;
+    padding-top: 15px;
+    text-align: center;
+}
+.text> :nth-child(3){
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 30px;
+    text-align: center;
+}
+.line{
+    height: 8px;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+    border-radius: 50%/90px 90px 0 0;     
+}
+.btn{
+    padding: 6px 36px 6px 34px;
+    font-weight: bold;
+    background-color: rgba(23,23,23,0.9);
+    color: rgb(255, 255, 255);
+}
+.btn-red{
+    background-color:rgb(229, 9, 20);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 0.25rem;
+    font-size: 24px;
+    font-weight: 500;
+}
+.btn-red-sn{
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border-style: solid;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 7px 8px;
+}
+.login-box{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.main input{
+    font-size: 16px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    border-radius: 0.25rem;
+    width: 335px;
+    height: 20px;
+    background-color: rgba(23,23,23,0.9);
+}
